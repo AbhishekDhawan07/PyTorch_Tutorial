@@ -1,125 +1,102 @@
 # 🚀 PyTorch_Tutorial
 
 Welcome to the **PyTorch Complete Tutorial Repository**!  
-This repository is designed to take you from **beginner to advanced** in PyTorch with hands-on notebooks and real datasets.
+A structured, hands-on journey from **basics to advanced deep learning** using PyTorch.
 
 ---
 
 ## 📌 Table of Contents
-- [📖 About the Repository](#-about-the-repository)
-- [📂 Folder Structure](#-folder-structure)
-- [📘 Tutorial Breakdown](#-tutorial-breakdown)
-- [📊 Datasets](#-datasets)
-- [⚙️ How to Use](#-how-to-use)
-- [🎯 Learning Outcomes](#-learning-outcomes)
-- [🤝 Contribution](#-contribution)
-- [📜 License](#-license)
+- 📖 About the Repository
+- 📂 Folder Structure
+- 📘 Tutorial Breakdown
+- 📊 Datasets
+- ⚙️ How to Use
+- 🎯 Learning Outcomes
+- 🤝 Contribution
+- 📜 License
 
 ---
 
 ## 📖 About the Repository
 
-This repository provides a **step-by-step, hands-on guide** to mastering PyTorch.  
-Each notebook focuses on a specific concept, gradually building towards **real-world deep learning projects**.
+This repository provides a **step-by-step guide** to mastering PyTorch through practical notebooks and real datasets.
 
 ---
 
 ## 📂 Folder Structure
 
-```
-PyTorch_Tutorial/
-│
-└── PyTorch - Complete Tutorial/
-    ├── PyTorch Part - 1 - Tensors in PyTorch.ipynb
-    ├── PyTorch Part - 2 - Autograd in PyTorch.ipynb
-    ├── PyTorch Part - 3 - Training Pipeline in PyTorch.ipynb
-    ├── PyTorch Part - 4 - NN Module in PyTorch.ipynb
-    ├── PyTorch Part - 5 - Dataset and Dataloader in PyTorch.ipynb
-    ├── PyTorch Part - 6 - Training ANN on fmnist_small.csv.ipynb
-    ├── PyTorch Part - 7 - Training ANN using GPU.ipynb
-    ├── PyTorch Part - 8 - Optimized ANN Model.ipynb
-    ├── PyTorch Part - 9 - Hyperparameter Tuning with Optuna.ipynb
-    ├── PyTorch Part - 10 - CNN Model.ipynb
-    ├── PyTorch Part - 11 - Transfer Learning.ipynb
-    ├── PyTorch Part - 12 - RNN.ipynb
-    ├── PyTorch Part - 13 - LSTM Next Word Predictor.ipynb
-    ├── PyTorch Complete Tutorial - Part 1.ipynb
-    └── PyTorch Complete Tutorial - Part 2.ipynb
-```
+**Repository:** `PyTorch_Tutorial`  
+**Main Folder:** `PyTorch - Complete Tutorial`
+
+### 📁 Files
+
+- PyTorch Part - 1 - Tensors in PyTorch.ipynb  
+- PyTorch Part - 2 - Autograd in PyTorch.ipynb  
+- PyTorch Part - 3 - Training Pipeline in PyTorch.ipynb  
+- PyTorch Part - 4 - NN Module in PyTorch.ipynb  
+- PyTorch Part - 5 - Dataset and Dataloader in PyTorch.ipynb  
+- PyTorch Part - 6 - Training the ANN on fmnist_small.csv using PyTorch.ipynb  
+- PyTorch Part - 7 - Training the ANN model using GPU on fashion mnist dataset.ipynb  
+- PyTorch Part - 8 - Optimized ANN Model on fashion.mnist dataset.ipynb  
+- PyTorch Part - 9 - Optimized ANN Model using Hyperparameter Tuning using Optuna.ipynb  
+- PyTorch Tutorial Part - 10 - CNN Model on fashion-mnist_train dataset.ipynb  
+- PyTorch Part - 11 - Transfer Learning in PyTorch.ipynb  
+- PyTorch Part - 12 - RNN using PyTorch.ipynb  
+- PyTorch - Part 13 - LSTM - Next Word Predictor using PyTorch.ipynb  
+- PyTorch Complete Tutorial in one shot - Part - 1.ipynb  
+- PyTorch Complete Tutorial in one shot - Part - 2.ipynb  
 
 ---
 
 ## 📘 Tutorial Breakdown
 
-### 🔰 Beginner Level
-- **Part 1:** Tensors – Core building blocks
-- **Part 2:** Autograd – Automatic differentiation
-- **Part 3:** Training Pipeline – End-to-end workflow
-- **Part 4:** Neural Network Module
-
-### ⚙️ Intermediate Level
-- **Part 5:** Dataset & DataLoader
-- **Part 6:** ANN Training on CSV Data
-- **Part 7:** GPU Training
-- **Part 8:** Model Optimization
-
-### 🚀 Advanced Level
-- **Part 9:** Hyperparameter Tuning (Optuna)
-- **Part 10:** CNN for Image Data
-- **Part 11:** Transfer Learning
-- **Part 12:** RNN for Sequential Data
-- **Part 13:** LSTM Next Word Predictor
-
-### 🎯 Complete Guides
-#### 📕 Part 1 Includes:
-- What is PyTorch?
+### 🔰 Beginner
 - Tensors
 - Autograd
+- Training Pipeline
 - Neural Networks
-- Loss Functions & Optimizers
-- Training Loop
-- Datasets & DataLoaders
-- Model Saving & Loading
 
-#### 📗 Part 2 Includes:
-- CNNs for Image Recognition
-- RNNs & LSTMs
+### ⚙️ Intermediate
+- Dataset & DataLoader
+- ANN Training
+- GPU Training
+- Model Optimization
+
+### 🚀 Advanced
+- Hyperparameter Tuning (Optuna)
+- CNN
 - Transfer Learning
-- Advanced Training Techniques:
-  - Early Stopping
-  - Mixed Precision
-  - Gradient Accumulation
-- Custom Image Datasets
-- Reusable Trainer Class
+- RNN
+- LSTM
 
 ---
 
 ## 📊 Datasets
 
-📁 All datasets used in this repository are included.
+All datasets used in this repository are included.
 
 Examples:
-- `fmnist_small.csv`
-- Fashion MNIST dataset
-- Custom RNN datasets
+- fmnist_small.csv  
+- Fashion MNIST  
+- Custom RNN datasets  
 
 ---
 
 ## ⚙️ How to Use
 
-### 1️⃣ Clone the Repository
-```bash
+### 1️⃣ Clone
+```
 git clone https://github.com/your-username/PyTorch_Tutorial.git
 cd PyTorch_Tutorial
 ```
 
-### 2️⃣ Install Dependencies
-```bash
+### 2️⃣ Install
+```
 pip install torch torchvision pandas numpy matplotlib optuna
 ```
 
-### 3️⃣ Run Notebooks
-```bash
+### 3️⃣ Run
+```
 jupyter notebook
 ```
 
@@ -127,29 +104,26 @@ jupyter notebook
 
 ## 🎯 Learning Outcomes
 
-By completing this repository, you will:
-
-✔ Understand PyTorch fundamentals  
-✔ Build and train deep learning models  
-✔ Work with CNNs, RNNs, and LSTMs  
-✔ Optimize models using advanced techniques  
-✔ Implement real-world ML pipelines  
+✔ Master PyTorch fundamentals  
+✔ Build deep learning models  
+✔ Work with CNNs, RNNs, LSTMs  
+✔ Optimize performance  
+✔ Build real-world pipelines  
 
 ---
 
 ## 🤝 Contribution
 
-Contributions are welcome!  
-Feel free to fork the repository and submit pull requests.
+Contributions are welcome. Fork and submit a PR.
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+MIT License
 
 ---
 
 ## ⭐ Support
 
-If you find this repository helpful, consider giving it a ⭐ on GitHub!
+If this helped you, consider giving a ⭐ on GitHub!
