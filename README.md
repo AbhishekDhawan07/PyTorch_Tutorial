@@ -1,4 +1,4 @@
-# 🚀 PyTorch_Tutorial
+# 🚀 PyTorch Tutorial
 
 Welcome to the **PyTorch Complete Tutorial Repository**!  
 A structured, hands-on journey from **basics to advanced deep learning** using PyTorch.
